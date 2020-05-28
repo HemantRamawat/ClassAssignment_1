@@ -1,0 +1,85 @@
+/* Position:
+    static
+    relative
+    absolute
+    fixed
+    sticky
+*/
+
+#header{
+    position: fixed;
+    text-align: center;
+    z-index: 1; 
+    margin: 0 auto;
+    display: block;
+}
+#header h1{
+    background: rgb(127, 155, 4);   
+}
+
+.banner{
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+    height: 20%;
+}
+.banner .welcome{
+    position: absolute;
+    margin: 10px 10px;
+    top: 45%;
+    left: 0px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(158, 7, 78);
+    /* font-size: 75px; */
+}
+.banner h2{
+    font-size: 50px;
+}
+.banner p{
+    font-size: 1.5em;
+}
+
+nav{
+    max-width: 100%;
+    background: #ccc;
+    margin: 0px auto;
+    padding: 15px;
+    position: sticky;
+    top: 66px;
+}
+
+nav ul{
+    white-space: nowrap;
+}
+
+nav li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+
+}
+
+footer{
+    max-width: 100%;
+    background: maroon;
+    margin: 10px auto;
+    padding: 15px;
+    position: relative;
+    top: 66px;
+}
+#contact-section{
+    text-align: center;
+}
+
+
+.contact-method{
+
+    white-space: nowrap;
+    display: inline-block;
+    width: 25%;
+    background-color: lightseagreen;
+}
+
